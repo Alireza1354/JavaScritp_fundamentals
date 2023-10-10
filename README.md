@@ -17,4 +17,4 @@ Some of the features of the latest version of JavaScript, may not yet be impleme
 we have two choices:
 
 - [Can I use](https://caniuse.com/)
-- [Babel is a JavaScript compiler](babeljs.io/)
+- [Babel is a JavaScript compiler](https://babeljs.io/)
