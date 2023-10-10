@@ -13,7 +13,7 @@
 
 ## It's important to know ....
 
-some of the features of the latest version of JavaScript, may not yet be implemented in all web browsers.
+Some of the features of the latest version of JavaScript, may not yet be implemented in all web browsers.
 we have two choices:
 
 - [Can I use](https://caniuse.com/)
