@@ -16,5 +16,5 @@
 some of the features of the latest version of JavaScript, may not yet be implemented in all web browsers.
 we have two choices:
 
-- [Can I use](https://https://caniuse.com/)
-- [Babel is a JavaScript compiler](https://babeljs.io/)
+- [Can I use](https://caniuse.com/)
+- [Babel is a JavaScript compiler](babeljs.io/)
