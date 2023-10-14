@@ -1,0 +1,50 @@
+
+//**************************************************
+// Variable scope = where a variable is accessible
+
+// let = variables are limited to block scope {}
+// var = variables are limited to a function(){}
+//**************************************************
+
+// example:
+// Let's create a for loop.
+// We'll count up to three, 
+// Then we will declare a counter of i.
+// Set this equal to one.
+// Will continue as long as i is less than or equal to three.
+// Then increment i by 1ne
+
+for (let index = 1; index <= 3; index++) {
+    //console.log(index);
+}
+
+// What if i attempt to access this variable i outside of this for loop?
+console.log(index); //---> Uncaught ReferenceError: i is not defined.
+
+// it doesn't exist outside of the set of curly braces!
+
+// if we instead used the var key word then this variable can exist outside of curly braces
+
+for (var index = 1; index <= 3; index++) {
+    //console.log(index);
+}
+console.log(index); //---> 4 ---> this could be a problem!
+// if i would like to reuse this counter 
+// but we declared it with var since it already has a value,
+// it's going to potentially mess with my program and cause problems.
+
+//*********************************************************************
+// However any variable declared with the var keyword doesn't exist
+// outside of any functions.
+
+function doSomething() {
+    for (var index = 1; index <= 3; index++) {
+        //console.log(index);
+    }
+}
+// Now when i display idex after it's been declared within var keyword,
+// we have that Uncaught reference error
+console.log(index); //---> Uncaught ReferenceError: i is not defined.
+
+// A variable declared with the var keyword can scape a set of curly braces,
+// but it can't escape a function if it's contained withing one.
