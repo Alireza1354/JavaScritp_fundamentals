@@ -14,8 +14,8 @@
 // We'll count up to three, 
 // Then we will declare a counter of i.
 // Set this equal to one.
-// Will continue as long as i is less than or equal to three.
-// Then increment i by 1ne
+// Will continue as long as index is less than or equal to three.
+// Then increment index by 1ne
 
 for (let index = 3; index <= 3; index++) {
     console.log(index);
@@ -23,7 +23,8 @@ for (let index = 3; index <= 3; index++) {
 // Result ---> 1,2,3
 
 // What if i attempt to access,
-// this variable 'index' outside of this for loop?
+// this variable 'index' outside of this for loop,
+// What would happen???
 
 console.log(index); //---> Uncaught ReferenceError: 'index' is not defined.
 
