@@ -1,11 +1,35 @@
 
 let temp = 32;
 
-// The formula to convert a temperature in fahrenheit to Celsius
-// is our temperature, minus 32, times, five divided by nine.
+// The formula to convert a temperature in fahrenheit to Celsius is:
+// our temperature, minus 32, times five divided by nine.
 function toCelsius(temp) {
     return (temp - 32) * (5 / 9);
 }
+
+document.getElementById("submitButton").onclick = function (params) {
+
+    // When we click on our button let's check to see,
+    // if one of these radio buttons is selected.
+    // Let's begin with the celsius button.
+
+    // Since this is a boolean value ---> document.getElementById("cButton").checked
+    // you don't need necessarily add equals true.(== true),
+    // if (document.getElementById("cButton").checked == true)
+    // if our Celsius button is selected do something.
+    if (document.getElementById("cButton").checked) {
+
+    }
+    // if our fahrenheit button is selected so somthing eles.
+    else if (document.getElementById("fButton").checked) {
+
+    }
+    // and lastly else means we didn't select anyting.
+    else {
+        document.getElementById("tempLabel").innerHTML = "Select a unit";
+    }
+}
+
 
 // The formula to convert Celsius to fahrenheit
 // is temp, times nine, divided by five plus 32
