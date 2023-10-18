@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature convertor</title>
+    <script defer src="assets/scripts/script.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>Temperature convertor</title>
 </head>
 <body>
     <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="number-gussing-game.html">Game</a></li>
-        <li><a href="temperature-converter.html">Temperature</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="number-gussing-game.html">Game</a></li>
+        <li><a class="nav__link" href="temperature-converter.html">Temperature</a></li>
     </ul>
     <h1 for="textBox">Enter a temperature</h1><br>
-    <input type="text" id="textBox"><br>
+    <input type="number" id="textBox"><br>
     <label>Convert to:</label><br>
     <input type="radio" id="cButton" name="unit">
     <label for="cButton">Celsius</label><br>
@@ -23,8 +23,10 @@
     <label for="fButton">Fahrenheit</label><br>
     <!-- Since these radio buttons are within the same group
     they have the same name and we can only select one of them. -->
+
     <button type="button" id="submitButton">submit</button><br>
     <label id="tempLabel"></label>
+    
     <script src="temperature-converter.js"></script>
 </body>
 
