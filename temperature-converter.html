@@ -8,25 +8,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Temperature convertor</title>
 </head>
+
 <body>
     <ul>
         <li><a class="nav__link" href="index.html">Home</a></li>
         <li><a class="nav__link" href="number-gussing-game.html">Game</a></li>
         <li><a class="nav__link" href="temperature-converter.html">Temperature</a></li>
     </ul>
-    <h1 for="textBox">Enter a temperature</h1><br>
-    <input type="number" id="textBox"><br>
-    <label>Convert to:</label><br>
-    <input type="radio" id="cButton" name="unit">
-    <label for="cButton">Celsius</label><br>
-    <input type="radio" id="fButton" name="unit">
-    <label for="fButton">Fahrenheit</label><br>
-    <!-- Since these radio buttons are within the same group
-    they have the same name and we can only select one of them. -->
+    <div class="center">
 
-    <button type="button" id="submitButton">submit</button><br>
-    <label id="tempLabel"></label>
-    
+        <h1 for="textBox">Enter a temperature</h1><br>
+        <input type="number" id="textBox"><br>
+        <label>Convert to:</label><br>
+        <input type="radio" id="cButton" name="unit">
+        <label for="cButton">Celsius</label><br>
+        <input type="radio" id="fButton" name="unit">
+        <label for="fButton">Fahrenheit</label><br>
+        <!-- Since these radio buttons are within the same group
+        they have the same name and we can only select one of them. -->
+        <button type="button" id="submitButton">submit</button><br>
+        <label id="tempLabel"></label>
+
+    </div>
     <script src="temperature-converter.js"></script>
 </body>
 
