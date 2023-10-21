@@ -2,7 +2,7 @@
 document.getElementById("submitButton").onclick = function (params) {
 
     let temp; // Declare a local variable
-    temp = document.getElementById('textBox').value;
+    temp = document.getElementById("textBox").value;
 
     // When we accept user input form a text box
     // it's of a string type. console.log(typeof temp); ---> string
